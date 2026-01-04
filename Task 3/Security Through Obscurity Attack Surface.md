@@ -1,0 +1,7 @@
+# Security Through Obscurity
+
+Security through obscurity means trying to keep a system safe by hiding information about it and not protecting it by locking encryption. Instead of using strong passwords, proper encryption, or access control, the system depends on the hope that attackers won’t figure out how it works. For example, hiding a login page URL or keeping passwords buried inside the code are common forms of this approach. Once someone discovers the hidden detail, the system has little or no protection left. Because of this, security through obscurity is not trusted as a main defense. At best it can be used as an extra layer, but real security should still work even if attackers know how the system is designed.
+
+# Attack Surface
+
+Attack surface refers to all the possible ways an attacker can try to access or harm a system. This includes things like login pages, open network ports, software features, input fields, APIs, and even users who use weak passwords. Every extra feature or access point increases the chances of something going wrong. A larger attack surface means more opportunities for attackers to find weaknesses. That is why software or website developer tries to reduce the attack surface by removing unused features, closing unnecessary ports, limiting user permissions, and keeping systems updated. A smaller attack surface makes the system easier to secure and lowers the risk of attacks.
